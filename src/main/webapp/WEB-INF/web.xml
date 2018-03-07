@@ -1,0 +1,73 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>userModifyCl</servlet-name>
+        <servlet-class>cn.rycheng.user.UserModifyCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userModifyCl</servlet-name>
+        <url-pattern>/userModifyCl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>userDeleteCl</servlet-name>
+        <servlet-class>cn.rycheng.user.UserDeleteCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userDeleteCl</servlet-name>
+        <url-pattern>/userDeleteCl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>userQueryCl</servlet-name>
+        <servlet-class>cn.rycheng.user.UserQueryCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userQueryCl</servlet-name>
+        <url-pattern>/userQueryCl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>userInsertCl</servlet-name>
+        <servlet-class>cn.rycheng.user.UserInsertCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userInsertCl</servlet-name>
+        <url-pattern>/userInsertCl</url-pattern>
+    </servlet-mapping>
+    <!-- 新闻管理 -->
+    <servlet>
+        <servlet-name>newsDeleteCl</servlet-name>
+        <servlet-class>cn.rycheng.news.NewsDeleteCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newsDeleteCl</servlet-name>
+        <url-pattern>/newsDeleteCl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>newsQueryCl</servlet-name>
+        <servlet-class>cn.rycheng.news.NewsQueryCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newsQueryCl</servlet-name>
+        <url-pattern>/newsQueryCl</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>newsModifyCl</servlet-name>
+        <servlet-class>cn.rycheng.news.NewsModifyCl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newsModifyCl</servlet-name>
+        <url-pattern>/newsModifyCl</url-pattern>
+    </servlet-mapping>
+</web-app>
